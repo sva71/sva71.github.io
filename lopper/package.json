@@ -1,0 +1,14 @@
+{
+  "name": "Lopper_Services_01",
+  "version": "1.0.0",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "devDependencies": {
+    "lodash": ">=4.17.19",
+    "minimist": ">=1.2.3"
+  }
+}

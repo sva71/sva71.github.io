@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: Mplus1p, sans-serif; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%; }
+
+.header__top-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.header__top-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  margin: 61px auto 36px auto; }
+  .header__top-container a {
+    display: block;
+    margin: 0 10px;
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #30233D;
+    text-decoration: none; }
+    .header__top-container a:hover {
+      text-decoration: underline; }
+
+.logo {
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 47px;
+  letter-spacing: 2px;
+  color: #30233D; }
+
+.header__nav {
+  display: flex;
+  justify-content: space-between; }
+  .header__nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0; }
+    .header__nav ul li {
+      list-style: none; }
+
+.menu__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 27px;
+  height: 16px;
+  cursor: pointer;
+  color: #30233D; }
+
+.line1, .line2 {
+  height: 2px;
+  background-color: black; }
+
+.line1 {
+  width: 27px; }
+
+.line2 {
+  width: 18px; }
+
+.header__bottom-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 360px;
+  background-image: url("../images/photo.png"); }
+
+.header__bottom-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%; }
+
+.head__line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.our__services {
+  margin: 0;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 80px;
+  color: #F61067; }
+
+.we__build {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 4px;
+  color: #F4F4ED;
+  text-transform: uppercase; }
+
+@media (max-width: 800px) {
+  .header__bottom-wrapper {
+    background-image: none;
+    background-color: #471a77; } }
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 12px;
+    line-height: 24px; }
+  .header__top-container a {
+    font-size: 10px;
+    line-height: 16px; } }
