@@ -1,0 +1,14 @@
+.top-panel {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.wrapper {
+    width: 90%;
+    min-height: 100vh;
+    margin: auto;
+    overflow-y: scroll;
+}
